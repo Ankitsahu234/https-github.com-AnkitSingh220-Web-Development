@@ -1,0 +1,273 @@
+.top-bar {
+      background-color: #0d1b2a;
+      color: white;
+      font-size: 14px;
+      padding: 5px 0;
+    }
+    .navbar-brand img {
+      height: 40px;
+    }
+    .hero-section {
+      background: linear-gradient(to right, #0659f1, #2a5298);
+      color: white;
+      padding: 100px 20px;
+      text-align: center;
+    }
+    .enquire-btn {
+      background: linear-gradient(to right, #4f65ff, #6a4dff);
+      color: white;
+      font-weight: 600;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 10px;
+    }
+    .enquire-btn:hover {
+      background: linear-gradient(to right, #3d4fe0, #5638e0);
+    }
+    .hover-card {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      border-radius: 15px;
+      overflow: hidden;
+    }
+    .hover-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    }
+    .hover-card img {
+      height: 220px;
+      object-fit: cover;
+    }
+
+.hover-effect {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-effect:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+
+.float-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.float-card:hover {
+  transform: scale(1.03) translateY(-5px);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+  z-index: 2;
+}
+
+
+ .trainer-card {
+      border: 1px solid #ddd;
+      border-radius: 15px;
+      padding: 20px;
+      height: 100%;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .badge {
+      margin-right: 5px;
+      margin-bottom: 5px;
+    }
+    .initials-circle {
+      width: 50px;
+      height: 50px;
+      background-color: #0d6efd;
+      color: white;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      font-size: 18px;
+    }
+    .linkedin-email {
+      font-size: 20px;
+      margin-right: 10px;
+    }
+
+
+.card .icon-hover {
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+
+  .card .icon-hover:hover {
+    color: #a0abba; /* Bootstrap primary color */
+    transform: scale(1.1);
+  }
+
+  .highlight {
+      color: #3b49df; /* blue for "Expert-Led" */
+    }
+    .btn-custom {
+      background-color: #4f46e5;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 30px;
+    }
+    .btn-gallery {
+      background-color: #e0e7ff;
+      color: #1e3a8a;
+      padding: 10px 20px;
+      border-radius: 30px;
+    }
+    .call-btn {
+      position: absolute;
+      right: 20px;
+      top: 20px;
+      background-color: #ef4444;
+      border-radius: 20px;
+      color: white;
+      padding: 8px 16px;
+      font-weight: 500;
+    }
+    .certified-badge {
+      position: absolute;
+      bottom: -20px;
+      left: 20px;
+      background-color: white;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 15px;
+      padding: 10px 15px;
+      font-size: 14px;
+    }
+    .certified-badge i {
+      color: green;
+      margin-right: 5px;
+    }
+    .whatsapp-icon {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 1000;
+    }
+    .hero-section {
+      background: url('https://images.unsplash.com/photo-1600880292089-90a7e086ee1e') no-repeat center center/cover;
+      color: white;
+      padding: 100px 20px;
+      position: relative;
+    }
+
+    .hero-overlay {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 60px 20px;
+    }
+
+    .card-icon {
+      font-size: 2rem;
+    }
+
+    .info-icon {
+      background: #f1f1f1;
+      padding: 10px;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+
+    .program-card {
+      min-height: 200px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      border-radius: 20px;
+    }
+
+    .About-section {
+      background: linear-gradient(to right, #2a5bd7, #3f3fd7);
+      color: white;
+      padding: 100px 20px;
+      text-align: center;
+    }
+    .btn-white-outline {
+      background-color: white;
+      color: #2a5bd7;
+      border: none;
+    }
+    .btn-white-outline:hover {
+      background-color: #e6e6e6;
+      color: #2a5bd7;
+    }
+    .btn-blue {
+      background-color: #1e73f2;
+      color: white;
+    }
+    .btn-blue:hover {
+      background-color: #155ecb;
+      color: white;
+    }
+    .About-section {
+      background: linear-gradient(to right, #2a5bd7, #3f3fd7);
+      color: white;
+      padding: 100px 20px;
+      text-align: center;
+    }
+    .btn-white-outline {
+      background-color: white;
+      color: #2a5bd7;
+      border: none;
+    }
+    .btn-white-outline:hover {
+      background-color: #e6e6e6;
+      color: #2a5bd7;
+    }
+    .btn-blue {
+      background-color: #1e73f2;
+      color: white;
+    }
+    .btn-blue:hover {
+      background-color: #155ecb;
+      color: white;
+    }
+    body {
+      background-color: #fffce9;
+    }
+    .about-section {
+      padding: 60px 20px;
+    }
+    .about-text {
+      font-size: 1.1rem;
+      line-height: 1.7;
+    }
+    .about-heading {
+      font-weight: 700;
+    }
+    .img-container img {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+
+    .info-card {
+      border-radius: 16px;
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+      background-color: #ffffff;
+      padding: 30px;
+      transition: transform 0.2s ease;
+    }
+    .info-card:hover {
+      transform: translateY(-4px);
+    }
+    .section {
+      background-color: #f8f9fa;
+      padding: 60px 20px;
+    }
+
+    .cta-section {
+      background: linear-gradient(90deg, #2563eb, #4f46e5); /* Blue Gradient */
+      color: white;
+      padding: 80px 20px;
+      text-align: center;
+    }
+    .cta-btn {
+      background-color: white;
+      color: #2563eb;
+      font-weight: 500;
+      border: none;
+      border-radius: 30px;
+      padding: 10px 25px;
+      font-size: 16px;
+      transition: all 0.3s ease-in-out;
+    }
+    .cta-btn:hover {
+      background-color: #ebf4ff;
+      color: #1d4ed8;
+    }

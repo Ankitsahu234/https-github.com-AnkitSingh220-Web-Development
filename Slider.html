@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+    <style>
+        .slider {
+            position: relative;
+            width: 90%;
+            max-width: 1000px;
+            overflow: hidden;
+            margin: 50px auto;
+            border-radius: 20px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .slides {
+            display: flex;
+            width: 300%; /* 100% per slide, for 3 slides */
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .slide {
+            width: 33.333%; /* 100% divided by 3 slides */
+        }
+
+        .slide img {
+            width: 100%;
+            display: block;
+            border-radius: 20px;
+            object-fit: cover; /* Ensures images scale properly */
+        }
+
+        .nav-btn {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: antiquewhite;
+            border: none;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            cursor: pointer;
+            font-size: 24px;
+            color: #333; /* Changed for better visibility on antiquewhite */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s;
+            z-index: 10;
+        }
+
+        #prev {
+            left: 15px;
+        }
+
+        #next {
+            right: 15px;
+        }
+
+        .nav-btn:hover {
+            background-color: aquamarine;
+        }
+
+        .nav-radio {
+            display: none; /* Hide radio buttons */
+        }
+
+        .nav-dots {
+            position: absolute;
+            bottom: 20px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .nav-dot {
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            background-color: rgba(255, 255, 255, 0.5);
+            border-radius: 50%;
+            margin: 0 5px;
+            cursor: pointer;
+        }
+
+        /* Slide transitions based on radio button state */
+        #radio1:checked ~ .slides {
+            transform: translateX(0);
+        }
+
+        #radio2:checked ~ .slides {
+            transform: translateX(-33.333%);
+        }
+
+        #radio3:checked ~ .slides {
+            transform: translateX(-66.666%);
+        }
+
+        /* Highlight active dot */
+        #radio1:checked ~ .nav-dots label[for="radio1"],
+        #radio2:checked ~ .nav-dots label[for="radio2"],
+        #radio3:checked ~ .nav-dots label[for="radio3"] {
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <div class="slider">
+        <!-- Radio buttons for slide control -->
+        <input type="radio" name="slider" id="radio1" class="nav-radio" checked>
+        <input type="radio" name="slider" id="radio2" class="nav-radio">
+        <input type="radio" name="slider" id="radio3" class="nav-radio">
+
+        <!-- Slides container -->
+        <div class="slides">
+            <div class="slide"><img src="img3.jpg" alt="Image 1"></div>
+            <div class="slide"><img src="image 2.png" alt="Image 2"></div>
+            <div class="slide"><img src="img1.jpg" alt="Image 3"></div>
+        </div>
+
+        <!-- Navigation buttons -->
+        <label for="radio3" class="nav-btn" id="prev">❮</label>
+        <label for="radio2" class="nav-btn" id="next">❯</label>
+
+        <!-- Navigation dots -->
+        <div class="nav-dots">
+            <label for="radio1" class="nav-dot"></label>
+            <label for="radio2" class="nav-dot"></label>
+            <label for="radio3" class="nav-dot"></label>
+        </div>
+    </div>
+</body>
+</html>
