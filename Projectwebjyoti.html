@@ -1,0 +1,1558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Corporate Training</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <style>
+    .top-bar {
+      background-color: #0d1b2a;
+      color: white;
+      font-size: 14px;
+      padding: 5px 0;
+    }
+    .navbar-brand img {
+      height: 40px;
+    }
+    .hero-section {
+      background: linear-gradient(to right, #0659f1, #2a5298);
+      color: white;
+      padding: 100px 20px;
+      text-align: center;
+    }
+    .enquire-btn {
+      background: linear-gradient(to right, #4f65ff, #6a4dff);
+      color: white;
+      font-weight: 600;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 10px;
+    }
+    .enquire-btn:hover {
+      background: linear-gradient(to right, #3d4fe0, #5638e0);
+    }
+    .hover-card {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      border-radius: 15px;
+      overflow: hidden;
+    }
+    .hover-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    }
+    .hover-card img {
+      height: 220px;
+      object-fit: cover;
+    }
+
+.hover-effect {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-effect:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+
+.float-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.float-card:hover {
+  transform: scale(1.03) translateY(-5px);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+  z-index: 2;
+}
+
+
+ .trainer-card {
+      border: 1px solid #ddd;
+      border-radius: 15px;
+      padding: 20px;
+      height: 100%;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .badge {
+      margin-right: 5px;
+      margin-bottom: 5px;
+    }
+    .initials-circle {
+      width: 50px;
+      height: 50px;
+      background-color: #0d6efd;
+      color: white;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      font-size: 18px;
+    }
+    .linkedin-email {
+      font-size: 20px;
+      margin-right: 10px;
+    }
+
+
+.card .icon-hover {
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+
+  .card .icon-hover:hover {
+    color: #a0abba; /* Bootstrap primary color */
+    transform: scale(1.1);
+  }
+
+
+
+
+  </style>
+</head>
+<body>
+
+<!-- Top Bar -->
+<div class="top-bar">
+  <div class="container d-flex justify-content-between align-items-center">
+    <div>
+      <i class="bi bi-telephone"></i> +91 8802000175 &nbsp;
+      <i class="bi bi-envelope"></i> info@webjyoti.com &nbsp;
+      <i class="bi bi-geo-alt"></i> Gurugram, India
+    </div>
+    <div>
+      Follow Us:
+      <i class="bi bi-facebook"></i>
+      <i class="bi bi-twitter"></i>
+      <i class="bi bi-linkedin"></i>
+    </div>
+  </div>
+</div>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg bg-white shadow-sm">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center" href="#">
+      <img src="https://websjyoti.com/images/logo.png" alt="Logo" class="me-2">
+      <strong>Corporate Training</strong>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link" href="Home.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="About.html">About</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Training</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Course 1</a></li>
+            <li><a class="dropdown-item" href="#">Course 2</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="#">Locations</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Testimonials</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Careers</a></li>
+      </ul>
+      <button class="enquire-btn">Enquire Now</button>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero-section">
+  <div class="container">
+    <h1 class="fw-bold">Our Expert Trainers</h1>
+    <p class="mt-3 fs-5">
+      Meet our team of 25+ industry experts with 8–15 years of experience, serving<br>
+      22+ cities across India with specialized data analytics and business intelligence training.
+    </p>
+  </div>
+</section>
+
+<!-- Expert Trainers Section -->
+<section class="py-5 bg-light">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 class="fw-bold">Meet Our Expert Trainers</h2>
+      <p class="text-muted">25+ industry professionals serving 22+ cities across India</p>
+    </div>
+
+
+    <div class="row g-4">
+      <!-- Trainer Card 1 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card shadow border-0 h-100 rounded-4 float-card border-top border-4 border-primary ">
+          <div class="card-body">
+            <div class="d-flex align-items-center mb-3">
+              <div class="initials-circle me-3" style="background-color: #d81a1a;">HB</div>
+              <div class="ms-0">
+                <h5 class="mb-0">Hirdesh Bhardwaj</h5>
+                <small class="text-primary">Senior Data Analytics Trainer & Regional Head</small><br>
+                <small class="text-muted">15+ Years</small>
+              </div>
+            </div>
+            <p class="mb-1 fw-bold"><i class="bi bi-geo-alt"></i> Locations Served</p>
+            <div class="mb-2">
+              <span class="badge bg-primary-subtle text-primary icon-hover">Delhi NCR</span>
+              <span class="badge bg-primary-subtle text-primary icon-hover">Gurgaon</span>
+              <span class="badge bg-primary-subtle text-primary icon-hover">Delhi</span>
+              <span class="badge bg-primary-subtle text-primary icon-hover">Noida</span>
+              <span class="badge bg-primary-subtle text-primary icon-hover">Ghaziabad</span>
+              <span class="badge bg-primary-subtle text-primary icon-hover">Meerut</span>
+              <span class="badge bg-primary-subtle text-primary icon-hover">KOTA</span>
+            </div>
+            <p class="mb-1 fw-bold">Specialization</p>
+            <p>Data Analytics, Advanced Excel, Power BI</p>
+
+            <p class="mb-1 fw-bold"><i class="bi bi-award"></i> Certifications</p>
+            <div class="mb-2">
+              <span class="badge bg-secondary icon-hover">Microsoft Certified</span>
+              <span class="badge bg-secondary icon-hover">Google Analytics</span>
+              <span class="badge bg-secondary icon-hover">Power BI Expert</span>
+            </div>
+            <p>Regional head covering Delhi NCR and surrounding areas with expertise in comprehensive data analytics training.</p>
+            <div class="d-flex gap-2">
+              <a href="#" class="text-primary icon-hover"><i class="bi bi-linkedin fs-5"></i></a>
+              <a href="#" class="text-secondary icon-hover"><i class="bi bi-envelope fs-5"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Trainer Card 2 -->
+       <div class="col-md-6 col-lg-4">
+        <div class="card shadow border-0 h-100 rounded-4 float-card border-top border-4 border-primary">
+          <div class="card-body">
+            <div class="d-flex align-items-center mb-3">
+              <div class="initials-circle me-3" style="background-color: #0caf0e;">KK</div>
+              <div class="ms-0">
+                <h5 class="mb-0">Ujjwal Garg</h5>
+                <small class="text-primary">Data Analytics Specialist</small><br>
+                <small class="text-muted">12+ Years</small>
+              </div>
+            </div>
+            <p class="mb-1 fw-bold"><i class="bi bi-geo-alt"></i> Locations Served</p>
+            <div class="mb-2">
+              <span class="badge bg-primary-subtle text-primary icon-hover">AGRA</span>
+            </div>
+            <p class="mb-1 fw-bold">Specialization</p>
+            <p>Advanced Excel, MIS Reporting, Data Visualization</p>
+
+            <p class="mb-1 fw-bold"><i class="bi bi-award"></i> Certifications</p>
+            <div class="mb-2">
+              <span class="badge bg-secondary icon-hover">Microsoft Excel Expert</span>
+              <span class="badge bg-secondary icon-hover">Data Analytics Certified</span>
+            </div>
+            <p>Specialized in advanced Excel techniques and MIS reporting for corporate clients in Agra region.</p>
+            <div class="d-flex gap-2">
+              <a href="#" class="text-primary icon-hover"><i class="bi bi-linkedin fs-5"></i></a>
+              <a href="#" class="text-secondary icon-hover"><i class="bi bi-envelope fs-5"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Trainer Card 3 -->
+      <div class="col-md-4">
+        <div class="card shadow border-0 h-100 rounded-4 float-card border-top border-4 border-primary">
+          <div class="card-body">
+            <div class="d-flex align-items-center mb-3">
+             <div class="initials-circle me-3" style="background-color: #0caf0e;">KK</div>
+              <div class="ms-0">
+                <h5 class="mb-0">Kishore Kumar</h5>
+                <small class="text-primary">Business Intelligence Trainer</small><br>
+                <small class="text-muted">10+ Years</small>
+              </div>
+            </div>
+            <p class="mb-1 fw-bold"><i class="bi bi-geo-alt"></i> Locations Served</p>
+            <div class="mb-2">
+              <span class="badge bg-primary-subtle text-primary icon-hover">RAIPUR</span>
+            </div>
+            <p class="mb-1 fw-bold">Specialization</p>
+            <p>Power BI, Business Intelligence, Dashboard Design</p>
+
+            <p class="mb-1 fw-bold"><i class="bi bi-award"></i> Certifications</p>
+            <div class="mb-2">
+              <span class="badge bg-secondary icon-hover">Power BI Certified</span>
+              <span class="badge bg-secondary icon-hover">Business Intelligence</span>
+              <span class="badge bg-secondary icon-hover icon-hover">Data Visualization</span>
+            </div>
+            <p>Expert in Power BI and business intelligence solutions serving Chhattisgarh region.</p>
+            <div class="d-flex gap-2">
+              <a href="#" class="text-primary icon-hover"><i class="bi bi-linkedin fs-5"></i></a>
+              <a href="#" class="text-secondary icon-hover"><i class="bi bi-envelope fs-5"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+<div class="container mt-4">
+  <div class="row g-4">
+    <!-- Akshat Dubey -->
+    <div class="col-md-4">
+      <div class="card shadow border-0 h-100 rounded-4 float-card border-top border-4 border-primary">
+        <div class="card-body">
+        <div class="d-flex align-items-center mb-3">
+          <div class="initials-circle me-3" style="background-color: #ff6347;">AD</div>
+          
+          <div>
+            <h5 class="mb-0">Akshat Dubey</h5>
+            <small class="text-primary">Excel & Analytics Expert</small><br>
+            <small>11+ Years</small>
+          </div>
+        </div>
+        <p class="mb-1 fw-bold"><i class="bi bi-geo-alt"></i> Locations Served</p>
+          <span class="badge bg-primary-subtle text-primary icon-hover">BHOPAL</span></p>
+        <p><strong>Specialization</strong><br>Advanced Excel, Statistical Analysis, Reporting</p>
+        <p><strong>🏅 Certifications</strong><br>
+          <span class="badge bg-secondary icon-hover">Excel Expert</span>
+          <span class="badge bg-secondary icon-hover">Statistical Analysis</span>
+          <span class="badge bg-secondary icon-hover">Data Reporting</span>
+        </p>
+        <p>Comprehensive Excel training specialist covering Madhya Pradesh region with focus on statistical analysis.</p>
+        <div class="d-flex gap-2">
+              <a href="#" class="text-primary icon-hover"><i class="bi bi-linkedin fs-5"></i></a>
+              <a href="#" class="text-secondary icon-hover"><i class="bi bi-envelope fs-5"></i></a>
+            </div>
+      </div>
+      </div>
+    </div>
+
+    <!-- Rohit Sharma -->
+    <div class="col-md-4">
+      <div class="card shadow border-0 h-100 rounded-4 float-card border-top border-4 border-primary">
+        <div class="card-body">
+        <div class="d-flex align-items-center mb-3">
+          <div class="initials-circle me-3" style="background-color:#0d6efd;">RS</div>
+          <div>
+            <h5 class="mb-0">Rohit Sharma</h5>
+            <small class="text-primary">Power BI & Data Visualization Expert</small><br>
+            <small>9+ Years</small>
+          </div>
+        </div>
+        <p class="mb-1 fw-bold"><i class="bi bi-geo-alt"></i> Locations Served</p>
+          <span class="badge bg-primary-subtle text-primary icon-hover">JAIPUR</span></p>
+        <p><strong>Specialization</strong><br>Power BI, Data Visualization, Business Analytics</p>
+        <p><strong>🏅 Certifications</strong><br>
+          <span class="badge bg-secondary icon-hover">Power BI Certified</span>
+          <span class="badge bg-secondary icon-hover">Data Visualization</span>
+          <span class="badge bg-secondary icon-hover">Business Analytics</span>
+        </p>
+        <p>Power BI specialist serving Rajasthan region with expertise in creating compelling data visualizations.</p>
+        <div class="d-flex gap-2">
+              <a href="#" class="text-primary icon-hover"><i class="bi bi-linkedin fs-5"></i></a>
+              <a href="#" class="text-secondary icon-hover"><i class="bi bi-envelope fs-5"></i></a>
+            </div>
+      </div>
+    </div>
+    </div>
+
+    <!-- Priya Singh -->
+    <div class="col-md-4">
+      <div class="card shadow border-0 h-100 rounded-4 float-card border-top border-4 border-primary">
+        <div class="card-body">
+        <div class="d-flex align-items-center mb-3">
+          <div class="initials-circle me-3" style="background-color:#0d6efd;">PS</div>
+          <div>
+            <h5 class="mb-0">Priya Singh</h5>
+            <small class="text-primary">Advanced Excel Trainer</small><br>
+            <small>8+ Years</small>
+          </div>
+        </div>
+        <p class="mb-1 fw-bold"><i class="bi bi-geo-alt"></i> Locations Served</p>
+        <i class="fas fa-map-marker-alt icon-hover me-2"></i>
+          <span class="badge bg-primary-subtle text-primary icon-hover">LUCKNOW</span></p>
+        <p><strong>Specialization</strong><br>Advanced Excel, Financial Modeling, Data Analysis</p>
+        <p><strong>🏅 Certifications</strong><br>
+          <span class="badge bg-secondary icon-hover">Microsoft Excel Expert</span>
+          <span class="badge bg-secondary icon-hover">Financial Modeling</span>
+          <span class="badge bg-secondary icon-hover">Data Analysis</span>
+        </p>
+        <p>Excel training expert specializing in financial modeling and advanced data analysis techniques for UP region.</p>
+        <div class="d-flex gap-2">
+              <a href="#" class="text-primary icon-hover"><i class="bi bi-linkedin fs-5"></i></a>
+              <a href="#" class="text-secondary icon-hover"><i class="bi bi-envelope fs-5"></i></a>
+            </div>
+      </div>
+  </div>
+    </div>
+  </div>
+</div>
+
+ 
+
+
+
+<div class="container mt-4">
+  <div class="row g-4">
+    <!-- Amit Kumar -->
+    <div class="col-md-4">
+      <div class="card shadow border-0 h-100 rounded-4 float-card border-top border-4 border-primary">
+        <div class="card-body">
+        <div class="d-flex align-items-center mb-3">
+          <div class="initials-circle me-3" style="background-color: #ff6347;">AK</div>
+          
+          <div>
+            <h5 class="mb-0">Amit Kumar</h5>
+            <small class="text-primary">Data Analytics & MIS Expert</small><br>
+            <small>10+ Years</small>
+          </div>
+        </div>
+        <p class="mb-1 fw-bold"><i class="bi bi-geo-alt"></i> Locations Served</p>
+          <span class="badge bg-primary-subtle text-primary icon-hover">PATNA</span></p>
+        <p><strong>Specialization</strong><br>Data Analytics, MIS Reporting, Excel Automation</p>
+        <p><strong>🏅 Certifications</strong><br>
+          <span class="badge bg-secondary icon-hover">Data Analytics Certified</span>
+          <span class="badge bg-secondary icon-hover">MIS Expert</span>
+          <span class="badge bg-secondary icon-hover">Excel Automation</span>
+        </p>
+        <p>Comprehensive data analytics trainer serving Bihar region with focus on MIS reporting and automation.</p>
+        <div class="d-flex gap-2">
+              <a href="#" class="text-primary icon-hover"><i class="bi bi-linkedin fs-5"></i></a>
+              <a href="#" class="text-secondary icon-hover"><i class="bi bi-envelope fs-5"></i></a>
+            </div>
+      </div>
+      </div>
+    </div>
+
+    <!-- Neha Gupta -->
+    <div class="col-md-4">
+      <div class="card shadow border-0 h-100 rounded-4 float-card border-top border-4 border-primary">
+        <div class="card-body">
+        <div class="d-flex align-items-center mb-3">
+          <div class="initials-circle me-3" style="background-color:#0d6efd;">NG</div>
+          <div>
+            <h5 class="mb-0">Neha Gupta</h5>
+            <small class="text-primary">Business Intelligence Consultant</small><br>
+            <small>12+ Years</small>
+          </div>
+        </div>
+        <p class="mb-1 fw-bold"><i class="bi bi-geo-alt"></i> Locations Served</p>
+          <span class="badge bg-primary-subtle text-primary icon-hover">CHANDIGARH</span></p>
+        <p><strong>Specialization</strong><br>Business Intelligence, Power BI, Data Strategy</p>
+        <p><strong>🏅 Certifications</strong><br>
+          <span class="badge bg-secondary icon-hover">BI Consultant</span>
+          <span class="badge bg-secondary icon-hover">Power BI Expert</span>
+          <span class="badge bg-secondary icon-hover">Data Strategy</span>
+        </p>
+        <p>Business intelligence consultant covering Punjab and Haryana regions with strategic data implementation expertise.</p>
+        <div class="d-flex gap-2">
+              <a href="#" class="text-primary icon-hover"><i class="bi bi-linkedin fs-5"></i></a>
+              <a href="#" class="text-secondary icon-hover"><i class="bi bi-envelope fs-5"></i></a>
+            </div>
+      </div>
+    </div>
+    </div>
+
+    <!-- Rajesh patel -->
+    <div class="col-md-4">
+      <div class="card shadow border-0 h-100 rounded-4 float-card border-top border-4 border-primary">
+        <div class="card-body">
+        <div class="d-flex align-items-center mb-3">
+          <div class="initials-circle me-3" style="background-color:#13a99fe2;">RP</div>
+          <div>
+            <h5 class="mb-0">Rajesh Patel</h5>
+            <small class="text-primary">Excel & Power BI trainer</small><br>
+            <small>11+ Years</small>
+          </div>
+        </div>
+        <p class="mb-1 fw-bold"><i class="bi bi-geo-alt"></i> Locations Served</p>
+        <i class="fas fa-map-marker-alt icon-hover me-2"></i>
+          <span class="badge bg-primary-subtle text-primary icon-hover">AHMEDABAD</span></p>
+        <p><strong>Specialization</strong><br>Advanced Excel, Power BI Certified, Dashboard Development</p>
+        <p><strong>🏅 Certifications</strong><br>
+          <span class="badge bg-secondary icon-hover">Excel Expert</span>
+          <span class="badge bg-secondary icon-hover">Power NI Certified</span>
+          <span class="badge bg-secondary icon-hover">Dashboard Development</span>
+        </p>
+        <p>Dual expertise in Excel and Power BI serving Gujarat region with focus on dashboard development.</p>
+        <div class="d-flex gap-2">
+              <a href="#" class="text-primary icon-hover"><i class="bi bi-linkedin fs-5"></i></a>
+              <a href="#" class="text-secondary icon-hover"><i class="bi bi-envelope fs-5"></i></a>
+            </div>
+      </div>
+  </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<div class="container mt-4">
+  <div class="row g-4">
+    <!-- Sunita Yadav -->
+    <div class="col-md-4">
+      <div class="card shadow border-0 h-100 rounded-4 float-card border-top border-4 border-primary">
+        <div class="card-body">
+        <div class="d-flex align-items-center mb-3">
+          <div class="initials-circle me-3" style="background-color: #0f13d4a2;">SY</div>
+          
+          <div>
+            <h5 class="mb-0">Sunita Yadav</h5>
+            <small class="text-primary">Data Visualization Specialist</small><br>
+            <small>9+ Years</small>
+          </div>
+        </div>
+        <p class="mb-1 fw-bold"><i class="bi bi-geo-alt"></i> Locations Served</p>
+          <span class="badge bg-primary-subtle text-primary icon-hover">PUNE</span></p>
+        <p><strong>Specialization</strong><br>Data Visualization, Power BI, Analytics Reporting</p>
+        <p><strong>🏅 Certifications</strong><br>
+          <span class="badge bg-secondary icon-hover">Data Visualization Expert</span>
+          <span class="badge bg-secondary icon-hover">Power BI Certified</span>
+          <span class="badge bg-secondary icon-hover">Analytics Reporting</span>
+        </p>
+        <p>Data visualization specialist serving Maharashtra region with expertise in creating impactful analytical reports.</p>
+        <div class="d-flex gap-2">
+              <a href="#" class="text-primary icon-hover"><i class="bi bi-linkedin fs-5"></i></a>
+              <a href="#" class="text-secondary icon-hover"><i class="bi bi-envelope fs-5"></i></a>
+            </div>
+      </div>
+      </div>
+    </div>
+
+    <!-- Vikram Singh -->
+    <div class="col-md-4">
+      <div class="card shadow border-0 h-100 rounded-4 float-card border-top border-4 border-primary">
+        <div class="card-body">
+        <div class="d-flex align-items-center mb-3">
+          <div class="initials-circle me-3" style="background-color:#0db431e0;">VS</div>
+          <div>
+            <h5 class="mb-0">Vikram Singh</h5>
+            <small class="text-primary">Advanced Analytics Trainer</small><br>
+            <small>13+ Years</small>
+          </div>
+        </div>
+        <p class="mb-1 fw-bold"><i class="bi bi-geo-alt"></i> Locations Served</p>
+          <span class="badge bg-primary-subtle text-primary icon-hover">INDORE</span></p>
+        <p><strong>Specialization</strong><br>Advanced Analytics, Statistical Analysis, Excel Modeling</p>
+        <p><strong>🏅 Certifications</strong><br>
+          <span class="badge bg-secondary icon-hover">Advanced Analytics</span>
+          <span class="badge bg-secondary icon-hover">Statistical Analysis</span>
+          <span class="badge bg-secondary icon-hover">Excel Modeling</span>
+        </p>
+        <p>Advanced analytics trainer covering central India with deep expertise in statistical analysis and modeling.</p>
+        <div class="d-flex gap-2">
+              <a href="#" class="text-primary icon-hover"><i class="bi bi-linkedin fs-5"></i></a>
+              <a href="#" class="text-secondary icon-hover"><i class="bi bi-envelope fs-5"></i></a>
+            </div>
+      </div>
+    </div>
+    </div>
+
+    <!-- Kavita Sharma -->
+    <div class="col-md-4">
+      <div class="card shadow border-0 h-100 rounded-4 float-card border-top border-4 border-primary">
+        <div class="card-body">
+        <div class="d-flex align-items-center mb-3">
+          <div class="initials-circle me-3" style="background-color:#e9090dce;">KS</div>
+          <div>
+            <h5 class="mb-0">Kavita Sharma</h5>
+            <small class="text-primary">Excel & Data Analysis Expert</small><br>
+            <small>10+ Years</small>
+          </div>
+        </div>
+        <p class="mb-1 fw-bold"><i class="bi bi-geo-alt"></i> Locations Served</p>
+        <i class="fas fa-map-marker-alt icon-hover me-2"></i>
+          <span class="badge bg-primary-subtle text-primary icon-hover">KOLKATA</span></p>
+        <p><strong>Specialization</strong><br>Excel Mastery, Data Analysis, Financial Reporting</p>
+        <p><strong>🏅 Certifications</strong><br>
+          <span class="badge bg-secondary icon-hover">Excel Mastery</span>
+          <span class="badge bg-secondary icon-hover">Data Analysis</span>
+          <span class="badge bg-secondary icon-hover">Financial Reporting</span>
+        </p>
+        <p>Excel mastery trainer serving West Bengal region with specialization in financial data analysis and reporting.</p>
+        <div class="d-flex gap-2">
+              <a href="#" class="text-primary icon-hover"><i class="bi bi-linkedin fs-5"></i></a>
+              <a href="#" class="text-secondary icon-hover"><i class="bi bi-envelope fs-5"></i></a>
+            </div>
+      </div>
+  </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<div class="container mt-4">
+  <div class="row g-4">
+    <!-- Manoj Kumar-->
+    <div class="col-md-4">
+      <div class="card shadow border-0 h-100 rounded-4 float-card border-top border-4 border-primary">
+        <div class="card-body">
+        <div class="d-flex align-items-center mb-3">
+          <div class="initials-circle me-3" style="background-color: #0db431e0;">MK</div>
+          
+          <div>
+            <h5 class="mb-0">Manoj Kumar</h5>
+            <small class="text-primary">Power BI & Analytics Consultant</small><br>
+            <small>14+ Years</small>
+          </div>
+        </div>
+        <p class="mb-1 fw-bold"><i class="bi bi-geo-alt"></i> Locations Served</p>
+          <span class="badge bg-primary-subtle text-primary icon-hover">HYDERABAD</span></p>
+        <p><strong>Specialization</strong><br>Power BI, Business Analytics, Data Strategy</p>
+        <p><strong>🏅 Certifications</strong><br>
+          <span class="badge bg-secondary icon-hover">Power BI Expert</span>
+          <span class="badge bg-secondary icon-hover">Business Analytics</span>
+          <span class="badge bg-secondary icon-hover">Data Strategy Consultant</span>
+        </p>
+        <p>Senior Power BI consultant serving Telangana and Andhra Pradesh with comprehensive business analytics expertise.</p>
+        <div class="d-flex gap-2">
+              <a href="#" class="text-primary icon-hover"><i class="bi bi-linkedin fs-5"></i></a>
+              <a href="#" class="text-secondary icon-hover"><i class="bi bi-envelope fs-5"></i></a>
+            </div>
+      </div>
+      </div>
+    </div>
+
+    <!-- Deepika Reddy -->
+    <div class="col-md-4">
+      <div class="card shadow border-0 h-100 rounded-4 float-card border-top border-4 border-primary">
+        <div class="card-body">
+        <div class="d-flex align-items-center mb-3">
+          <div class="initials-circle me-3" style="background-color:#0d6efd;">DR</div>
+          <div>
+            <h5 class="mb-0">Deepika Reddy</h5>
+            <small class="text-primary">Data Science & Analytics Trainer</small><br>
+            <small>11+ Years</small>
+          </div>
+        </div>
+        <p class="mb-1 fw-bold"><i class="bi bi-geo-alt"></i> Locations Served</p>
+          <span class="badge bg-primary-subtle text-primary icon-hover">BANGALORE</span></p>
+        <p><strong>Specialization</strong><br>Data Science, Advanced Analytics, Machine Learning Basics</p>
+        <p><strong>🏅 Certifications</strong><br>
+          <span class="badge bg-secondary icon-hover">Data Science</span>
+          <span class="badge bg-secondary icon-hover">Advanced Analytics</span>
+          <span class="badge bg-secondary icon-hover">ML Fundamentals</span>
+        </p>
+        <p>Data science trainer serving Karnataka region with expertise in advanced analytics and machine learning fundamentals.</p>
+        <div class="d-flex gap-2">
+              <a href="#" class="text-primary icon-hover"><i class="bi bi-linkedin fs-5"></i></a>
+              <a href="#" class="text-secondary icon-hover"><i class="bi bi-envelope fs-5"></i></a>
+            </div>
+      </div>
+    </div>
+    </div>
+
+    <!-- Arjun Nair -->
+    <div class="col-md-4">
+      <div class="card shadow border-0 h-100 rounded-4 float-card border-top border-4 border-primary">
+        <div class="card-body">
+        <div class="d-flex align-items-center mb-3">
+          <div class="initials-circle me-3" style="background-color:#0d6efd;">AN</div>
+          <div>
+            <h5 class="mb-0">Arjun Nair</h5>
+            <small class="text-primary">Excel & BI Solutions Expert</small><br>
+            <small>9+ Years</small>
+          </div>
+        </div>
+        <p class="mb-1 fw-bold"><i class="bi bi-geo-alt"></i> Locations Served</p>
+        <i class="fas fa-map-marker-alt icon-hover me-2"></i>
+          <span class="badge bg-primary-subtle text-primary icon-hover">KOCHI</span></p>
+        <p><strong>Specialization</strong><br>Excel Solutions, Business Intelligence, Data Integration</p>
+        <p><strong>🏅 Certifications</strong><br>
+          <span class="badge bg-secondary icon-hover">Excel Solutions</span>
+          <span class="badge bg-secondary icon-hover">BI Expert</span>
+          <span class="badge bg-secondary icon-hover">Data Integration</span>
+        </p>
+        <p>Excel and BI solutions expert serving Kerala region with focus on data integration and business intelligence.</p>
+        <div class="d-flex gap-2">
+              <a href="#" class="text-primary icon-hover"><i class="bi bi-linkedin fs-5"></i></a>
+              <a href="#" class="text-secondary icon-hover"><i class="bi bi-envelope fs-5"></i></a>
+            </div>
+      </div>
+  </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<div class="container mt-4">
+  <div class="row g-4">
+    <!-- Pooja Agarwal -->
+    <div class="col-md-4">
+      <div class="card shadow border-0 h-100 rounded-4 float-card border-top border-4 border-primary">
+        <div class="card-body">
+        <div class="d-flex align-items-center mb-3">
+          <div class="initials-circle me-3" style="background-color: #ff6347;">PA</div>
+          
+          <div>
+            <h5 class="mb-0">Pooja Agarwal</h5>
+            <small class="text-primary">Data Analytics & Reporting Specialist</small><br>
+            <small>8+ Years</small>
+          </div>
+        </div>
+        <p class="mb-1 fw-bold"><i class="bi bi-geo-alt"></i> Locations Served</p>
+          <span class="badge bg-primary-subtle text-primary icon-hover">SURAT</span></p>
+        <p><strong>Specialization</strong><br>Data Analytics, Advanced Reporting, Excel Automation</p>
+        <p><strong>🏅 Certifications</strong><br>
+          <span class="badge bg-secondary icon-hover">Data Analytics</span>
+          <span class="badge bg-secondary icon-hover">Advanced Reporting</span>
+          <span class="badge bg-secondary icon-hover">Excel Automation</span>
+        </p>
+        <p>Data analytics specialist serving Gujarat region with expertise in advanced reporting and Excel automation solutions.</p>
+        <div class="d-flex gap-2">
+              <a href="#" class="text-primary icon-hover"><i class="bi bi-linkedin fs-5"></i></a>
+              <a href="#" class="text-secondary icon-hover"><i class="bi bi-envelope fs-5"></i></a>
+            </div>
+      </div>
+      </div>
+    </div>
+
+    <!-- Ravi Tiwari -->
+    <div class="col-md-4">
+      <div class="card shadow border-0 h-100 rounded-4 float-card border-top border-4 border-primary">
+        <div class="card-body">
+        <div class="d-flex align-items-center mb-3">
+          <div class="initials-circle me-3" style="background-color:#0d6efd;">RT</div>
+          <div>
+            <h5 class="mb-0">Ravi Tiwari</h5>
+            <small class="text-primary">MIS & Data Management Expert</small><br>
+            <small>12+ Years</small>
+          </div>
+        </div>
+        <p class="mb-1 fw-bold"><i class="bi bi-geo-alt"></i> Locations Served</p>
+          <span class="badge bg-primary-subtle text-primary icon-hover">KANPUR</span></p>
+        <p><strong>Specialization</strong><br>MIS Development, Data Management, Excel Solutions</p>
+        <p><strong>🏅 Certifications</strong><br>
+          <span class="badge bg-secondary icon-hover">MIS Expert</span>
+          <span class="badge bg-secondary icon-hover">Data Management</span>
+          <span class="badge bg-secondary icon-hover">Excel Solutions</span>
+        </p>
+        <p>MIS and data management expert serving Uttar Pradesh region with comprehensive Excel solutions expertise.</p>
+        <div class="d-flex gap-2">
+              <a href="#" class="text-primary icon-hover"><i class="bi bi-linkedin fs-5"></i></a>
+              <a href="#" class="text-secondary icon-hover"><i class="bi bi-envelope fs-5"></i></a>
+            </div>
+      </div>
+    </div>
+    </div>
+
+    <!-- Shreya Joshi -->
+    <div class="col-md-4">
+      <div class="card shadow border-0 h-100 rounded-4 float-card border-top border-4 border-primary">
+        <div class="card-body">
+        <div class="d-flex align-items-center mb-3">
+          <div class="initials-circle me-3" style="background-color:#0d6efd;">SJ</div>
+          <div>
+            <h5 class="mb-0">Shreya Joshi</h5>
+            <small class="text-primary">Power BI & Data Visualization Trainer</small><br>
+            <small>7+ Years</small>
+          </div>
+        </div>
+        <p class="mb-1 fw-bold"><i class="bi bi-geo-alt"></i> Locations Served</p>
+        <i class="fas fa-map-marker-alt icon-hover me-2"></i>
+          <span class="badge bg-primary-subtle text-primary icon-hover">NASHIK</span></p>
+        <p><strong>Specialization</strong><br>Power BI, Data Visualization, Interactive Dashboards</p>
+        <p><strong>🏅 Certifications</strong><br>
+          <span class="badge bg-secondary icon-hover">Power BI Certified</span>
+          <span class="badge bg-secondary icon-hover">Data Visualization</span>
+          <span class="badge bg-secondary icon-hover">Dashboard Design</span>
+        </p>
+        <p>Power BI trainer serving Maharashtra region with specialization in interactive dashboard design and data visualization.</p>
+        <div class="d-flex gap-2">
+              <a href="#" class="text-primary icon-hover"><i class="bi bi-linkedin fs-5"></i></a>
+              <a href="#" class="text-secondary icon-hover"><i class="bi bi-envelope fs-5"></i></a>
+            </div>
+      </div>
+  </div>
+    </div>
+  </div>
+</div>
+<div class="container mt-4">
+  <div class="row g-4">
+    <!-- Akshat Dubey -->
+    <div class="col-md-4">
+      <div class="card shadow border-0 h-100 rounded-4 float-card border-top border-4 border-primary">
+        <div class="card-body">
+        <div class="d-flex align-items-center mb-3">
+          <div class="initials-circle me-3" style="background-color: #ff6347;">AD</div>
+          
+          <div>
+            <h5 class="mb-0">Akshat Dubey</h5>
+            <small class="text-primary">Excel & Analytics Expert</small><br>
+            <small>11+ Years</small>
+          </div>
+        </div>
+        <p class="mb-1 fw-bold"><i class="bi bi-geo-alt"></i> Locations Served</p>
+          <span class="badge bg-primary-subtle text-primary icon-hover">BHOPAL</span></p>
+        <p><strong>Specialization</strong><br>Advanced Excel, Statistical Analysis, Reporting</p>
+        <p><strong>🏅 Certifications</strong><br>
+          <span class="badge bg-secondary icon-hover">Excel Expert</span>
+          <span class="badge bg-secondary icon-hover">Statistical Analysis</span>
+          <span class="badge bg-secondary icon-hover">Data Reporting</span>
+        </p>
+        <p>Comprehensive Excel training specialist covering Madhya Pradesh region with focus on statistical analysis.</p>
+        <div class="d-flex gap-2">
+              <a href="#" class="text-primary icon-hover"><i class="bi bi-linkedin fs-5"></i></a>
+              <a href="#" class="text-secondary icon-hover"><i class="bi bi-envelope fs-5"></i></a>
+            </div>
+      </div>
+      </div>
+    </div>
+
+    <!-- Rohit Sharma -->
+    <div class="col-md-4">
+      <div class="card shadow border-0 h-100 rounded-4 float-card border-top border-4 border-primary">
+        <div class="card-body">
+        <div class="d-flex align-items-center mb-3">
+          <div class="initials-circle me-3" style="background-color:#0d6efd;">RS</div>
+          <div>
+            <h5 class="mb-0">Rohit Sharma</h5>
+            <small class="text-primary">Power BI & Data Visualization Expert</small><br>
+            <small>9+ Years</small>
+          </div>
+        </div>
+        <p class="mb-1 fw-bold"><i class="bi bi-geo-alt"></i> Locations Served</p>
+          <span class="badge bg-primary-subtle text-primary icon-hover">JAIPUR</span></p>
+        <p><strong>Specialization</strong><br>Power BI, Data Visualization, Business Analytics</p>
+        <p><strong>🏅 Certifications</strong><br>
+          <span class="badge bg-secondary icon-hover">Power BI Certified</span>
+          <span class="badge bg-secondary icon-hover">Data Visualization</span>
+          <span class="badge bg-secondary icon-hover">Business Analytics</span>
+        </p>
+        <p>Power BI specialist serving Rajasthan region with expertise in creating compelling data visualizations.</p>
+        <div class="d-flex gap-2">
+              <a href="#" class="text-primary icon-hover"><i class="bi bi-linkedin fs-5"></i></a>
+              <a href="#" class="text-secondary icon-hover"><i class="bi bi-envelope fs-5"></i></a>
+            </div>
+      </div>
+    </div>
+    </div>
+
+    <!-- Priya Singh -->
+    <div class="col-md-4">
+      <div class="card shadow border-0 h-100 rounded-4 float-card border-top border-4 border-primary">
+        <div class="card-body">
+        <div class="d-flex align-items-center mb-3">
+          <div class="initials-circle me-3" style="background-color:#0d6efd;">PS</div>
+          <div>
+            <h5 class="mb-0">Priya Singh</h5>
+            <small class="text-primary">Advanced Excel Trainer</small><br>
+            <small>8+ Years</small>
+          </div>
+        </div>
+        <p class="mb-1 fw-bold"><i class="bi bi-geo-alt"></i> Locations Served</p>
+        <i class="fas fa-map-marker-alt icon-hover me-2"></i>
+          <span class="badge bg-primary-subtle text-primary icon-hover">LUCKNOW</span></p>
+        <p><strong>Specialization</strong><br>Advanced Excel, Financial Modeling, Data Analysis</p>
+        <p><strong>🏅 Certifications</strong><br>
+          <span class="badge bg-secondary icon-hover">Microsoft Excel Expert</span>
+          <span class="badge bg-secondary icon-hover">Financial Modeling</span>
+          <span class="badge bg-secondary icon-hover">Data Analysis</span>
+        </p>
+        <p>Excel training expert specializing in financial modeling and advanced data analysis techniques for UP region.</p>
+        <div class="d-flex gap-2">
+              <a href="#" class="text-primary icon-hover"><i class="bi bi-linkedin fs-5"></i></a>
+              <a href="#" class="text-secondary icon-hover"><i class="bi bi-envelope fs-5"></i></a>
+            </div>
+      </div>
+  </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<div class="container mt-4">
+  <div class="row g-4">
+    <!-- Akshat Dubey -->
+    <div class="col-md-4">
+      <div class="card shadow border-0 h-100 rounded-4 float-card border-top border-4 border-primary">
+        <div class="card-body">
+        <div class="d-flex align-items-center mb-3">
+          <div class="initials-circle me-3" style="background-color: #ff6347;">AD</div>
+          
+          <div>
+            <h5 class="mb-0">Akshat Dubey</h5>
+            <small class="text-primary">Excel & Analytics Expert</small><br>
+            <small>11+ Years</small>
+          </div>
+        </div>
+        <p class="mb-1 fw-bold"><i class="bi bi-geo-alt"></i> Locations Served</p>
+          <span class="badge bg-primary-subtle text-primary icon-hover">BHOPAL</span></p>
+        <p><strong>Specialization</strong><br>Advanced Excel, Statistical Analysis, Reporting</p>
+        <p><strong>🏅 Certifications</strong><br>
+          <span class="badge bg-secondary icon-hover">Excel Expert</span>
+          <span class="badge bg-secondary icon-hover">Statistical Analysis</span>
+          <span class="badge bg-secondary icon-hover">Data Reporting</span>
+        </p>
+        <p>Comprehensive Excel training specialist covering Madhya Pradesh region with focus on statistical analysis.</p>
+        <div class="d-flex gap-2">
+              <a href="#" class="text-primary icon-hover"><i class="bi bi-linkedin fs-5"></i></a>
+              <a href="#" class="text-secondary icon-hover"><i class="bi bi-envelope fs-5"></i></a>
+            </div>
+      </div>
+      </div>
+    </div>
+
+    <!-- Rohit Sharma -->
+    <div class="col-md-4">
+      <div class="card shadow border-0 h-100 rounded-4 float-card border-top border-4 border-primary">
+        <div class="card-body">
+        <div class="d-flex align-items-center mb-3">
+          <div class="initials-circle me-3" style="background-color:#0d6efd;">RS</div>
+          <div>
+            <h5 class="mb-0">Rohit Sharma</h5>
+            <small class="text-primary">Power BI & Data Visualization Expert</small><br>
+            <small>9+ Years</small>
+          </div>
+        </div>
+        <p class="mb-1 fw-bold"><i class="bi bi-geo-alt"></i> Locations Served</p>
+          <span class="badge bg-primary-subtle text-primary icon-hover">JAIPUR</span></p>
+        <p><strong>Specialization</strong><br>Power BI, Data Visualization, Business Analytics</p>
+        <p><strong>🏅 Certifications</strong><br>
+          <span class="badge bg-secondary icon-hover">Power BI Certified</span>
+          <span class="badge bg-secondary icon-hover">Data Visualization</span>
+          <span class="badge bg-secondary icon-hover">Business Analytics</span>
+        </p>
+        <p>Power BI specialist serving Rajasthan region with expertise in creating compelling data visualizations.</p>
+        <div class="d-flex gap-2">
+              <a href="#" class="text-primary icon-hover"><i class="bi bi-linkedin fs-5"></i></a>
+              <a href="#" class="text-secondary icon-hover"><i class="bi bi-envelope fs-5"></i></a>
+            </div>
+      </div>
+    </div>
+    </div>
+
+    <!-- Priya Singh -->
+    <div class="col-md-4">
+      <div class="card shadow border-0 h-100 rounded-4 float-card border-top border-4 border-primary">
+        <div class="card-body">
+        <div class="d-flex align-items-center mb-3">
+          <div class="initials-circle me-3" style="background-color:#0d6efd;">PS</div>
+          <div>
+            <h5 class="mb-0">Priya Singh</h5>
+            <small class="text-primary">Advanced Excel Trainer</small><br>
+            <small>8+ Years</small>
+          </div>
+        </div>
+        <p class="mb-1 fw-bold"><i class="bi bi-geo-alt"></i> Locations Served</p>
+        <i class="fas fa-map-marker-alt icon-hover me-2"></i>
+          <span class="badge bg-primary-subtle text-primary icon-hover">LUCKNOW</span></p>
+        <p><strong>Specialization</strong><br>Advanced Excel, Financial Modeling, Data Analysis</p>
+        <p><strong>🏅 Certifications</strong><br>
+          <span class="badge bg-secondary icon-hover">Microsoft Excel Expert</span>
+          <span class="badge bg-secondary icon-hover">Financial Modeling</span>
+          <span class="badge bg-secondary icon-hover">Data Analysis</span>
+        </p>
+        <p>Excel training expert specializing in financial modeling and advanced data analysis techniques for UP region.</p>
+        <div class="d-flex gap-2">
+              <a href="#" class="text-primary icon-hover"><i class="bi bi-linkedin fs-5"></i></a>
+              <a href="#" class="text-secondary icon-hover"><i class="bi bi-envelope fs-5"></i></a>
+            </div>
+      </div>
+  </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+<div class="container mt-4">
+  <div class="row g-4">
+    <!-- Akshat Dubey -->
+    <div class="col-md-4">
+      <div class="card shadow border-0 h-100 rounded-4 float-card border-top border-4 border-primary">
+        <div class="card-body">
+        <div class="d-flex align-items-center mb-3">
+          <div class="initials-circle me-3" style="background-color: #ff6347;">AD</div>
+          
+          <div>
+            <h5 class="mb-0">Akshat Dubey</h5>
+            <small class="text-primary">Excel & Analytics Expert</small><br>
+            <small>11+ Years</small>
+          </div>
+        </div>
+        <p class="mb-1 fw-bold"><i class="bi bi-geo-alt"></i> Locations Served</p>
+          <span class="badge bg-primary-subtle text-primary icon-hover">BHOPAL</span></p>
+        <p><strong>Specialization</strong><br>Advanced Excel, Statistical Analysis, Reporting</p>
+        <p><strong>🏅 Certifications</strong><br>
+          <span class="badge bg-secondary icon-hover">Excel Expert</span>
+          <span class="badge bg-secondary icon-hover">Statistical Analysis</span>
+          <span class="badge bg-secondary icon-hover">Data Reporting</span>
+        </p>
+        <p>Comprehensive Excel training specialist covering Madhya Pradesh region with focus on statistical analysis.</p>
+        <div class="d-flex gap-2">
+              <a href="#" class="text-primary icon-hover"><i class="bi bi-linkedin fs-5"></i></a>
+              <a href="#" class="text-secondary icon-hover"><i class="bi bi-envelope fs-5"></i></a>
+            </div>
+      </div>
+      </div>
+    </div>
+
+    <!-- Rohit Sharma -->
+    <div class="col-md-4">
+      <div class="card shadow border-0 h-100 rounded-4 float-card border-top border-4 border-primary">
+        <div class="card-body">
+        <div class="d-flex align-items-center mb-3">
+          <div class="initials-circle me-3" style="background-color:#0d6efd;">RS</div>
+          <div>
+            <h5 class="mb-0">Rohit Sharma</h5>
+            <small class="text-primary">Power BI & Data Visualization Expert</small><br>
+            <small>9+ Years</small>
+          </div>
+        </div>
+        <p class="mb-1 fw-bold"><i class="bi bi-geo-alt"></i> Locations Served</p>
+          <span class="badge bg-primary-subtle text-primary icon-hover">JAIPUR</span></p>
+        <p><strong>Specialization</strong><br>Power BI, Data Visualization, Business Analytics</p>
+        <p><strong>🏅 Certifications</strong><br>
+          <span class="badge bg-secondary icon-hover">Power BI Certified</span>
+          <span class="badge bg-secondary icon-hover">Data Visualization</span>
+          <span class="badge bg-secondary icon-hover">Business Analytics</span>
+        </p>
+        <p>Power BI specialist serving Rajasthan region with expertise in creating compelling data visualizations.</p>
+        <div class="d-flex gap-2">
+              <a href="#" class="text-primary icon-hover"><i class="bi bi-linkedin fs-5"></i></a>
+              <a href="#" class="text-secondary icon-hover"><i class="bi bi-envelope fs-5"></i></a>
+            </div>
+      </div>
+    </div>
+    </div>
+
+    <!-- Priya Singh -->
+    <div class="col-md-4">
+      <div class="card shadow border-0 h-100 rounded-4 float-card border-top border-4 border-primary">
+        <div class="card-body">
+        <div class="d-flex align-items-center mb-3">
+          <div class="initials-circle me-3" style="background-color:#0d6efd;">PS</div>
+          <div>
+            <h5 class="mb-0">Priya Singh</h5>
+            <small class="text-primary">Advanced Excel Trainer</small><br>
+            <small>8+ Years</small>
+          </div>
+        </div>
+        <p class="mb-1 fw-bold"><i class="bi bi-geo-alt"></i> Locations Served</p>
+        <i class="fas fa-map-marker-alt icon-hover me-2"></i>
+          <span class="badge bg-primary-subtle text-primary icon-hover">LUCKNOW</span></p>
+        <p><strong>Specialization</strong><br>Advanced Excel, Financial Modeling, Data Analysis</p>
+        <p><strong>🏅 Certifications</strong><br>
+          <span class="badge bg-secondary icon-hover">Microsoft Excel Expert</span>
+          <span class="badge bg-secondary icon-hover">Financial Modeling</span>
+          <span class="badge bg-secondary icon-hover">Data Analysis</span>
+        </p>
+        <p>Excel training expert specializing in financial modeling and advanced data analysis techniques for UP region.</p>
+        <div class="d-flex gap-2">
+              <a href="#" class="text-primary icon-hover"><i class="bi bi-linkedin fs-5"></i></a>
+              <a href="#" class="text-secondary icon-hover"><i class="bi bi-envelope fs-5"></i></a>
+            </div>
+      </div>
+  </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+<div class="container mt-4">
+  <div class="row g-4">
+    <!-- Akshat Dubey -->
+    <div class="col-md-4">
+      <div class="card shadow border-0 h-100 rounded-4 float-card border-top border-4 border-primary">
+        <div class="card-body">
+        <div class="d-flex align-items-center mb-3">
+          <div class="initials-circle me-3" style="background-color: #ff6347;">AD</div>
+          
+          <div>
+            <h5 class="mb-0">Akshat Dubey</h5>
+            <small class="text-primary">Excel & Analytics Expert</small><br>
+            <small>11+ Years</small>
+          </div>
+        </div>
+        <p class="mb-1 fw-bold"><i class="bi bi-geo-alt"></i> Locations Served</p>
+          <span class="badge bg-primary-subtle text-primary icon-hover">BHOPAL</span></p>
+        <p><strong>Specialization</strong><br>Advanced Excel, Statistical Analysis, Reporting</p>
+        <p><strong>🏅 Certifications</strong><br>
+          <span class="badge bg-secondary icon-hover">Excel Expert</span>
+          <span class="badge bg-secondary icon-hover">Statistical Analysis</span>
+          <span class="badge bg-secondary icon-hover">Data Reporting</span>
+        </p>
+        <p>Comprehensive Excel training specialist covering Madhya Pradesh region with focus on statistical analysis.</p>
+        <div class="d-flex gap-2">
+              <a href="#" class="text-primary icon-hover"><i class="bi bi-linkedin fs-5"></i></a>
+              <a href="#" class="text-secondary icon-hover"><i class="bi bi-envelope fs-5"></i></a>
+            </div>
+      </div>
+      </div>
+    </div>
+
+    <!-- Rohit Sharma -->
+    <div class="col-md-4">
+      <div class="card shadow border-0 h-100 rounded-4 float-card border-top border-4 border-primary">
+        <div class="card-body">
+        <div class="d-flex align-items-center mb-3">
+          <div class="initials-circle me-3" style="background-color:#0d6efd;">RS</div>
+          <div>
+            <h5 class="mb-0">Rohit Sharma</h5>
+            <small class="text-primary">Power BI & Data Visualization Expert</small><br>
+            <small>9+ Years</small>
+          </div>
+        </div>
+        <p class="mb-1 fw-bold"><i class="bi bi-geo-alt"></i> Locations Served</p>
+          <span class="badge bg-primary-subtle text-primary icon-hover">JAIPUR</span></p>
+        <p><strong>Specialization</strong><br>Power BI, Data Visualization, Business Analytics</p>
+        <p><strong>🏅 Certifications</strong><br>
+          <span class="badge bg-secondary icon-hover">Power BI Certified</span>
+          <span class="badge bg-secondary icon-hover">Data Visualization</span>
+          <span class="badge bg-secondary icon-hover">Business Analytics</span>
+        </p>
+        <p>Power BI specialist serving Rajasthan region with expertise in creating compelling data visualizations.</p>
+        <div class="d-flex gap-2">
+              <a href="#" class="text-primary icon-hover"><i class="bi bi-linkedin fs-5"></i></a>
+              <a href="#" class="text-secondary icon-hover"><i class="bi bi-envelope fs-5"></i></a>
+            </div>
+      </div>
+    </div>
+    </div>
+
+    <!-- Priya Singh -->
+    <div class="col-md-4">
+      <div class="card shadow border-0 h-100 rounded-4 float-card border-top border-4 border-primary">
+        <div class="card-body">
+        <div class="d-flex align-items-center mb-3">
+          <div class="initials-circle me-3" style="background-color:#0d6efd;">PS</div>
+          <div>
+            <h5 class="mb-0">Priya Singh</h5>
+            <small class="text-primary">Advanced Excel Trainer</small><br>
+            <small>8+ Years</small>
+          </div>
+        </div>
+        <p class="mb-1 fw-bold"><i class="bi bi-geo-alt"></i> Locations Served</p>
+        <i class="fas fa-map-marker-alt icon-hover me-2"></i>
+          <span class="badge bg-primary-subtle text-primary icon-hover">LUCKNOW</span></p>
+        <p><strong>Specialization</strong><br>Advanced Excel, Financial Modeling, Data Analysis</p>
+        <p><strong>🏅 Certifications</strong><br>
+          <span class="badge bg-secondary icon-hover">Microsoft Excel Expert</span>
+          <span class="badge bg-secondary icon-hover">Financial Modeling</span>
+          <span class="badge bg-secondary icon-hover">Data Analysis</span>
+        </p>
+        <p>Excel training expert specializing in financial modeling and advanced data analysis techniques for UP region.</p>
+        <div class="d-flex gap-2">
+              <a href="#" class="text-primary icon-hover"><i class="bi bi-linkedin fs-5"></i></a>
+              <a href="#" class="text-secondary icon-hover"><i class="bi bi-envelope fs-5"></i></a>
+            </div>
+      </div>
+  </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+<div class="container mt-4">
+  <div class="row g-4">
+    <!-- Akshat Dubey -->
+    <div class="col-md-4">
+      <div class="card shadow border-0 h-100 rounded-4 float-card border-top border-4 border-primary">
+        <div class="card-body">
+        <div class="d-flex align-items-center mb-3">
+          <div class="initials-circle me-3" style="background-color: #ff6347;">AD</div>
+          
+          <div>
+            <h5 class="mb-0">Akshat Dubey</h5>
+            <small class="text-primary">Excel & Analytics Expert</small><br>
+            <small>11+ Years</small>
+          </div>
+        </div>
+        <p class="mb-1 fw-bold"><i class="bi bi-geo-alt"></i> Locations Served</p>
+          <span class="badge bg-primary-subtle text-primary icon-hover">BHOPAL</span></p>
+        <p><strong>Specialization</strong><br>Advanced Excel, Statistical Analysis, Reporting</p>
+        <p><strong>🏅 Certifications</strong><br>
+          <span class="badge bg-secondary icon-hover">Excel Expert</span>
+          <span class="badge bg-secondary icon-hover">Statistical Analysis</span>
+          <span class="badge bg-secondary icon-hover">Data Reporting</span>
+        </p>
+        <p>Comprehensive Excel training specialist covering Madhya Pradesh region with focus on statistical analysis.</p>
+        <div class="d-flex gap-2">
+              <a href="#" class="text-primary icon-hover"><i class="bi bi-linkedin fs-5"></i></a>
+              <a href="#" class="text-secondary icon-hover"><i class="bi bi-envelope fs-5"></i></a>
+            </div>
+      </div>
+      </div>
+    </div>
+
+    <!-- Rohit Sharma -->
+    <div class="col-md-4">
+      <div class="card shadow border-0 h-100 rounded-4 float-card border-top border-4 border-primary">
+        <div class="card-body">
+        <div class="d-flex align-items-center mb-3">
+          <div class="initials-circle me-3" style="background-color:#0d6efd;">RS</div>
+          <div>
+            <h5 class="mb-0">Rohit Sharma</h5>
+            <small class="text-primary">Power BI & Data Visualization Expert</small><br>
+            <small>9+ Years</small>
+          </div>
+        </div>
+        <p class="mb-1 fw-bold"><i class="bi bi-geo-alt"></i> Locations Served</p>
+          <span class="badge bg-primary-subtle text-primary icon-hover">JAIPUR</span></p>
+        <p><strong>Specialization</strong><br>Power BI, Data Visualization, Business Analytics</p>
+        <p><strong>🏅 Certifications</strong><br>
+          <span class="badge bg-secondary icon-hover">Power BI Certified</span>
+          <span class="badge bg-secondary icon-hover">Data Visualization</span>
+          <span class="badge bg-secondary icon-hover">Business Analytics</span>
+        </p>
+        <p>Power BI specialist serving Rajasthan region with expertise in creating compelling data visualizations.</p>
+        <div class="d-flex gap-2">
+              <a href="#" class="text-primary icon-hover"><i class="bi bi-linkedin fs-5"></i></a>
+              <a href="#" class="text-secondary icon-hover"><i class="bi bi-envelope fs-5"></i></a>
+            </div>
+      </div>
+    </div>
+    </div>
+
+    <!-- Priya Singh -->
+    <div class="col-md-4">
+      <div class="card shadow border-0 h-100 rounded-4 float-card border-top border-4 border-primary">
+        <div class="card-body">
+        <div class="d-flex align-items-center mb-3">
+          <div class="initials-circle me-3" style="background-color:#0d6efd;">PS</div>
+          <div>
+            <h5 class="mb-0">Priya Singh</h5>
+            <small class="text-primary">Advanced Excel Trainer</small><br>
+            <small>8+ Years</small>
+          </div>
+        </div>
+        <p class="mb-1 fw-bold"><i class="bi bi-geo-alt"></i> Locations Served</p>
+        <i class="fas fa-map-marker-alt icon-hover me-2"></i>
+          <span class="badge bg-primary-subtle text-primary icon-hover">LUCKNOW</span></p>
+        <p><strong>Specialization</strong><br>Advanced Excel, Financial Modeling, Data Analysis</p>
+        <p><strong>🏅 Certifications</strong><br>
+          <span class="badge bg-secondary icon-hover">Microsoft Excel Expert</span>
+          <span class="badge bg-secondary icon-hover">Financial Modeling</span>
+          <span class="badge bg-secondary icon-hover">Data Analysis</span>
+        </p>
+        <p>Excel training expert specializing in financial modeling and advanced data analysis techniques for UP region.</p>
+        <div class="d-flex gap-2">
+              <a href="#" class="text-primary icon-hover"><i class="bi bi-linkedin fs-5"></i></a>
+              <a href="#" class="text-secondary icon-hover"><i class="bi bi-envelope fs-5"></i></a>
+            </div>
+      </div>
+  </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+<div class="container mt-4">
+  <div class="row g-4">
+    <!-- Akshat Dubey -->
+    <div class="col-md-4">
+      <div class="card shadow border-0 h-100 rounded-4 float-card border-top border-4 border-primary">
+        <div class="card-body">
+        <div class="d-flex align-items-center mb-3">
+          <div class="initials-circle me-3" style="background-color: #ff6347;">AD</div>
+          
+          <div>
+            <h5 class="mb-0">Akshat Dubey</h5>
+            <small class="text-primary">Excel & Analytics Expert</small><br>
+            <small>11+ Years</small>
+          </div>
+        </div>
+        <p class="mb-1 fw-bold"><i class="bi bi-geo-alt"></i> Locations Served</p>
+          <span class="badge bg-primary-subtle text-primary icon-hover">BHOPAL</span></p>
+        <p><strong>Specialization</strong><br>Advanced Excel, Statistical Analysis, Reporting</p>
+        <p><strong>🏅 Certifications</strong><br>
+          <span class="badge bg-secondary icon-hover">Excel Expert</span>
+          <span class="badge bg-secondary icon-hover">Statistical Analysis</span>
+          <span class="badge bg-secondary icon-hover">Data Reporting</span>
+        </p>
+        <p>Comprehensive Excel training specialist covering Madhya Pradesh region with focus on statistical analysis.</p>
+        <div class="d-flex gap-2">
+              <a href="#" class="text-primary icon-hover"><i class="bi bi-linkedin fs-5"></i></a>
+              <a href="#" class="text-secondary icon-hover"><i class="bi bi-envelope fs-5"></i></a>
+            </div>
+      </div>
+      </div>
+    </div>
+
+    <!-- Rohit Sharma -->
+    <div class="col-md-4">
+      <div class="card shadow border-0 h-100 rounded-4 float-card border-top border-4 border-primary">
+        <div class="card-body">
+        <div class="d-flex align-items-center mb-3">
+          <div class="initials-circle me-3" style="background-color:#0d6efd;">RS</div>
+          <div>
+            <h5 class="mb-0">Rohit Sharma</h5>
+            <small class="text-primary">Power BI & Data Visualization Expert</small><br>
+            <small>9+ Years</small>
+          </div>
+        </div>
+        <p class="mb-1 fw-bold"><i class="bi bi-geo-alt"></i> Locations Served</p>
+          <span class="badge bg-primary-subtle text-primary icon-hover">JAIPUR</span></p>
+        <p><strong>Specialization</strong><br>Power BI, Data Visualization, Business Analytics</p>
+        <p><strong>🏅 Certifications</strong><br>
+          <span class="badge bg-secondary icon-hover">Power BI Certified</span>
+          <span class="badge bg-secondary icon-hover">Data Visualization</span>
+          <span class="badge bg-secondary icon-hover">Business Analytics</span>
+        </p>
+        <p>Power BI specialist serving Rajasthan region with expertise in creating compelling data visualizations.</p>
+        <div class="d-flex gap-2">
+              <a href="#" class="text-primary icon-hover"><i class="bi bi-linkedin fs-5"></i></a>
+              <a href="#" class="text-secondary icon-hover"><i class="bi bi-envelope fs-5"></i></a>
+            </div>
+      </div>
+    </div>
+    </div>
+
+    <!-- Priya Singh -->
+    <div class="col-md-4">
+      <div class="card shadow border-0 h-100 rounded-4 float-card border-top border-4 border-primary">
+        <div class="card-body">
+        <div class="d-flex align-items-center mb-3">
+          <div class="initials-circle me-3" style="background-color:#0d6efd;">PS</div>
+          <div>
+            <h5 class="mb-0">Priya Singh</h5>
+            <small class="text-primary">Advanced Excel Trainer</small><br>
+            <small>8+ Years</small>
+          </div>
+        </div>
+        <p class="mb-1 fw-bold"><i class="bi bi-geo-alt"></i> Locations Served</p>
+        <i class="fas fa-map-marker-alt icon-hover me-2"></i>
+          <span class="badge bg-primary-subtle text-primary icon-hover">LUCKNOW</span></p>
+        <p><strong>Specialization</strong><br>Advanced Excel, Financial Modeling, Data Analysis</p>
+        <p><strong>🏅 Certifications</strong><br>
+          <span class="badge bg-secondary icon-hover">Microsoft Excel Expert</span>
+          <span class="badge bg-secondary icon-hover">Financial Modeling</span>
+          <span class="badge bg-secondary icon-hover">Data Analysis</span>
+        </p>
+        <p>Excel training expert specializing in financial modeling and advanced data analysis techniques for UP region.</p>
+        <div class="d-flex gap-2">
+              <a href="#" class="text-primary icon-hover"><i class="bi bi-linkedin fs-5"></i></a>
+              <a href="#" class="text-secondary icon-hover"><i class="bi bi-envelope fs-5"></i></a>
+            </div>
+      </div>
+  </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+<div class="container mt-4">
+  <div class="row g-4">
+    <!-- Akshat Dubey -->
+    <div class="col-md-4">
+      <div class="card shadow border-0 h-100 rounded-4 float-card border-top border-4 border-primary">
+        <div class="card-body">
+        <div class="d-flex align-items-center mb-3">
+          <div class="initials-circle me-3" style="background-color: #ff6347;">AD</div>
+          
+          <div>
+            <h5 class="mb-0">Akshat Dubey</h5>
+            <small class="text-primary">Excel & Analytics Expert</small><br>
+            <small>11+ Years</small>
+          </div>
+        </div>
+        <p class="mb-1 fw-bold"><i class="bi bi-geo-alt"></i> Locations Served</p>
+          <span class="badge bg-primary-subtle text-primary icon-hover">BHOPAL</span></p>
+        <p><strong>Specialization</strong><br>Advanced Excel, Statistical Analysis, Reporting</p>
+        <p><strong>🏅 Certifications</strong><br>
+          <span class="badge bg-secondary icon-hover">Excel Expert</span>
+          <span class="badge bg-secondary icon-hover">Statistical Analysis</span>
+          <span class="badge bg-secondary icon-hover">Data Reporting</span>
+        </p>
+        <p>Comprehensive Excel training specialist covering Madhya Pradesh region with focus on statistical analysis.</p>
+        <div class="d-flex gap-2">
+              <a href="#" class="text-primary icon-hover"><i class="bi bi-linkedin fs-5"></i></a>
+              <a href="#" class="text-secondary icon-hover"><i class="bi bi-envelope fs-5"></i></a>
+            </div>
+      </div>
+      </div>
+    </div>
+
+    <!-- Rohit Sharma -->
+    <div class="col-md-4">
+      <div class="card shadow border-0 h-100 rounded-4 float-card border-top border-4 border-primary">
+        <div class="card-body">
+        <div class="d-flex align-items-center mb-3">
+          <div class="initials-circle me-3" style="background-color:#0d6efd;">RS</div>
+          <div>
+            <h5 class="mb-0">Rohit Sharma</h5>
+            <small class="text-primary">Power BI & Data Visualization Expert</small><br>
+            <small>9+ Years</small>
+          </div>
+        </div>
+        <p class="mb-1 fw-bold"><i class="bi bi-geo-alt"></i> Locations Served</p>
+          <span class="badge bg-primary-subtle text-primary icon-hover">JAIPUR</span></p>
+        <p><strong>Specialization</strong><br>Power BI, Data Visualization, Business Analytics</p>
+        <p><strong>🏅 Certifications</strong><br>
+          <span class="badge bg-secondary icon-hover">Power BI Certified</span>
+          <span class="badge bg-secondary icon-hover">Data Visualization</span>
+          <span class="badge bg-secondary icon-hover">Business Analytics</span>
+        </p>
+        <p>Power BI specialist serving Rajasthan region with expertise in creating compelling data visualizations.</p>
+        <div class="d-flex gap-2">
+              <a href="#" class="text-primary icon-hover"><i class="bi bi-linkedin fs-5"></i></a>
+              <a href="#" class="text-secondary icon-hover"><i class="bi bi-envelope fs-5"></i></a>
+            </div>
+      </div>
+    </div>
+    </div>
+
+    <!-- Priya Singh -->
+    <div class="col-md-4">
+      <div class="card shadow border-0 h-100 rounded-4 float-card border-top border-4 border-primary">
+        <div class="card-body">
+        <div class="d-flex align-items-center mb-3">
+          <div class="initials-circle me-3" style="background-color:#0d6efd;">PS</div>
+          <div>
+            <h5 class="mb-0">Priya Singh</h5>
+            <small class="text-primary">Advanced Excel Trainer</small><br>
+            <small>8+ Years</small>
+          </div>
+        </div>
+        <p class="mb-1 fw-bold"><i class="bi bi-geo-alt"></i> Locations Served</p>
+        <i class="fas fa-map-marker-alt icon-hover me-2"></i>
+          <span class="badge bg-primary-subtle text-primary icon-hover">LUCKNOW</span></p>
+        <p><strong>Specialization</strong><br>Advanced Excel, Financial Modeling, Data Analysis</p>
+        <p><strong>🏅 Certifications</strong><br>
+          <span class="badge bg-secondary icon-hover">Microsoft Excel Expert</span>
+          <span class="badge bg-secondary icon-hover">Financial Modeling</span>
+          <span class="badge bg-secondary icon-hover">Data Analysis</span>
+        </p>
+        <p>Excel training expert specializing in financial modeling and advanced data analysis techniques for UP region.</p>
+        <div class="d-flex gap-2">
+              <a href="#" class="text-primary icon-hover"><i class="bi bi-linkedin fs-5"></i></a>
+              <a href="#" class="text-secondary icon-hover"><i class="bi bi-envelope fs-5"></i></a>
+            </div>
+      </div>
+  </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+</section>
+
+<!-- Bootstrap Icons (required for icons to show up) -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+
+
+
+<!-- Why Our Trainers Stand Out Section -->
+<section class="py-5 bg-light text-center">
+  <div class="container">
+    <h2 class="fw-bold mb-5">Why Our Trainers Stand Out</h2>
+    <div class="row g-4">
+      <div class="col-md-3">
+        <div>
+          <i class="bi bi-award fs-1 text-primary"></i>
+          <h5 class="fw-bold mt-3">Industry Experience</h5>
+          <p class="text-muted">All trainers have 8+ years of hands-on industry experience</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div>
+          <i class="bi bi-mortarboard fs-1 text-primary"></i>
+          <h5 class="fw-bold mt-3">Certified Professionals</h5>
+          <p class="text-muted">Multiple industry certifications and continuous learning</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div>
+          <i class="bi bi-people fs-1 text-primary"></i>
+          <h5 class="fw-bold mt-3">Local Expertise</h5>
+          <p class="text-muted">Regional trainers understanding local business needs</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div>
+          <i class="bi bi-trophy fs-1 text-primary"></i>
+          <h5 class="fw-bold mt-3">Training Excellence</h5>
+          <p class="text-muted">Proven track record with 17,375+ successful students</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="text-white pt-5" style="background-color: #0f1b2c;">
+  <div class="container">
+    <div class="row pb-4">
+      <div class="col-md-3">
+        <h5 class="fw-bold">Corporate Training</h5>
+        <p class="text-white">Data Analytics Excellence</p>
+        <p>Empowering professionals with cutting-edge skills in data analytics and business intelligence for over 17 years.</p>
+        <div class="d-flex gap-2">
+          <a href="#" class="btn btn-outline-light btn-sm rounded-circle"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="btn btn-outline-light btn-sm rounded-circle"><i class="bi bi-twitter"></i></a>
+          <a href="#" class="btn btn-outline-light btn-sm rounded-circle"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <h6 class="fw-bold">Quick Links</h6>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-decoration-none text-light">Home</a></li>
+          <li><a href="#" class="text-decoration-none text-light">About Us</a></li>
+          <li><a href="#" class="text-decoration-none text-light">Training Modules</a></li>
+          <li><a href="#" class="text-decoration-none text-light">Expert Trainers</a></li>
+          <li><a href="#" class="text-decoration-none text-light">Testimonials</a></li>
+          <li><a href="#" class="text-decoration-none text-light">Contact</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <h6 class="fw-bold">Training Programs</h6>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-decoration-none text-light">Data Analytics Fundamentals</a></li>
+          <li><a href="#" class="text-decoration-none text-light">Advanced Excel Mastery</a></li>
+          <li><a href="#" class="text-decoration-none text-light">Power BI Professional</a></li>
+          <li><a href="#" class="text-decoration-none text-light">MIS Reporting Excellence</a></li>
+          <li><a href="#" class="text-decoration-none text-light">Business Intelligence Suite</a></li>
+          <li><a href="#" class="text-decoration-none text-light">Corporate Analytics Program</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <h6 class="fw-bold">Get In Touch</h6>
+        <p><i class="bi bi-telephone-fill"></i> +91 8802000175<br><small>Mon-Fri: 9:00 AM - 6:00 PM</small></p>
+        <p><i class="bi bi-envelope-fill"></i> info@webjyoti.com<br><small>Quick response guaranteed</small></p>
+        <p><i class="bi bi-geo-alt-fill"></i> Gurugram, India<br><small>55+ cities across India</small></p>
+      </div>
+    </div>
+    <div class="border-top border-secondary pt-3 pb-2 text-center small">
+      <p class="mb-1">© 2025 Corporate Training Programs. All rights reserved.</p>
+      <a href="#" class="text-decoration-none text-light me-3">Privacy Policy</a>
+      <a href="#" class="text-decoration-none text-light me-3">Terms of Service</a>
+      <a href="#" class="text-decoration-none text-light">Cookie Policy</a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
